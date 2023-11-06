@@ -90,6 +90,7 @@ $age=$_POST['age'];
 $gen=$_POST['gender'];
 $class=$_POST['class'];
 
+
 mysqli_query($conn,"insert into `user` (NAME,age,gender,class) values ('$name','$age','$gen','$class')");
 ?>
 </body>

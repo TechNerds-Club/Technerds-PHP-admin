@@ -4,13 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .oll{
+            list-style: none;
+        }
+        .lii{
+            float : left;
+            padding:10px;
+        }
+    </style>
 </head>
 <body>
     
 <h1>Input form</h1>
 
-<br><br>
-<form method="post">
+<!-- <br><br> -->
+<!-- <form method="post">
     <input type="text" name="name" placeholder="Enter your name"><br>
     <input type="text" name="age" placeholder="Enter your age"><br>
     <label for="gender">Select your gender:</label>
@@ -25,9 +34,9 @@
         <option value="3bca">3rd bca</option>
     </select><br>
     <input type="submit">
-</form>
+</form> -->
 
-<?php
+<!-- <php
 include "../06-11-2023/db2.php"
 
 $name=$_POST['name'];
@@ -36,8 +45,13 @@ $gen=$_POST['gender'];
 // $class=$_POST['class'];
 
 mysqli_query($conn," insert into `admin` (name,phone_no,class ) values ('$name','$age','$gen')");
-?>
-
+?> -->
+<ol class="oll">
+    <a href="https://www.phpmyadmin.net/"><li class="lii">ndrk</li></a>
+    <li class="lii">ndrk</li>
+    <li class="lii">ndrk</li>
+    <li class="lii">ndrk</li>
+</ol>
 
 </body>
 </html>
